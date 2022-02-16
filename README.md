@@ -134,7 +134,7 @@ parametrização!
 | - | - |
 | Bruno Alves Félix | 16/0114705 |
 | Eliseu Kadesh     | 18/0015834 |
-| | |
+| Hugo Aragão de Oliveira| 16/0124581 |
 | | |
 | | |
 | | |
