@@ -130,8 +130,16 @@ parametrização!
 ---
 
 **Grupos de alunos**
+| Nome | Matrícula |
+| - | - |
+| Bruno Alves Félix | 16/0114705 |
+| | |
+| | |
+| | |
+| | |
+| | |
 
-**Entrega do trabalho**
+**Entrega do trabalho:** 25/02
 
 **Valor do trabalho**
 
