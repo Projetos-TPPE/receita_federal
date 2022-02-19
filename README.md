@@ -47,6 +47,7 @@ Seja o seguinte cenário descrito a seguir:
 > 
 > Para o valor da base de cálculo, é calculado o valor de cada uma das 5 faixas
 > de imposto. As faixas possuem as seguintes alíquotas:   
+> 
 > | Faixa | Alíquota    |
 > |:-----:|:-----------:|
 > | 1a.   | 0% (isenta) |
@@ -54,6 +55,7 @@ Seja o seguinte cenário descrito a seguir:
 > | 3a.   | 15%         |
 > | 4a.   | 22,5%       |
 > | 5a.   | 25%         |
+> 
 > Portanto, baseado na tabela acima, os valores da base de cálculo que atingiram
 > as faixas serão multiplicados pelas respectivas alíquotas para cálculo do
 > valor do imposto de cada uma das faixas. O valor total do imposto a ser pago
@@ -123,25 +125,42 @@ _commits_:
 * duplicação; 
 * triangulação.
 
-
-:exclamation::exclamation::exclamation:**ATENÇÃO:** todos os testes triangulados deverão estar triangulados por
-parametrização!
+:exclamation::exclamation::exclamation:**ATENÇÃO:** todos os testes finais
+deverão estar triangulados por parametrização, com exceção dos testes de
+exceções.
 
 ---
 
 **Grupos de alunos**
+
+Os trabalhos deverão ser executados por grupos de até 6 alunos. O grupo deverá
+criar um repositório público no GitHub, cujo arquivo README.md deverá conter os
+nomes e matrículas dos componentes.
+
 | Nome | Matrícula |
 | - | - |
 | Bruno Alves Félix | 16/0114705 |
 | Eliseu Kadesh     | 18/0015834 |
 | Hugo Aragão de Oliveira| 16/0124581 |
-| | |
-| | |
-| | |
+| Edson Soares | 19/0105381 |
+| Francisco Emanoel Ferreira da Penha | 170142329 |
+| Enzo Gabriel Guedes Queiroz Saraiva | 16/0119006 |
 
-**Entrega do trabalho:** 25/02
+**Entrega do trabalho:**
+
+Os trabalhos deverão ser entregues através de repositório no GitHub, até as
+23:59:59hs do dia 25 de fevereiro de 2022, impreterivelmente.
 
 **Valor do trabalho**
 
+30 pontos.
+
 **Forma de avaliação**
 
+Os trabalhos serão avaliados através:
+
+- da corretude dos cálculos realizados pelo simulador;
+- da utilização de testes parametrizados em todos os testes funcionais; 
+- da utilização de testes de exceção e, por fim, 
+- das seqüências de _commits_ para os casos em que o emprego das técnicas de
+  falsificação, duplicação e triangulação é obrigatório.
